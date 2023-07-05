@@ -1,5 +1,6 @@
 # sql-injection
 Two examples of scripts that i wrote, vulnerable to SQL injection and safe to sql injection.
+
 SQL Injection is an attack technique that works through dynamic strings. With this attack technique hacker might get access to user details, might destroy or fetch data from your database without you can notice. 
 Hackers executes malicious SQL commands into web pages login forms (eg. in input boxes). These malicious commands sometimes contain logical operators like OR, AND. With the help of these operators hackers might fetch the data. 
 
