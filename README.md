@@ -6,5 +6,5 @@ Hackers executes malicious SQL commands into web pages login forms (eg. in input
 
 We can use parameterized queries(prepared statements). By using parameterized queries as a developer we should write all the SQL code and pass in each parameter at execution time. This technique allows the database to distinguish wheter input is code or data. By the help of the prepared statements we can be sure that attacker cant change the purpose of the query.
 
-## Technolohies Used : 
+### Technologies Used : 
 Java
