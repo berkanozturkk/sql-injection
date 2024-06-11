@@ -1,10 +1,39 @@
-#SQL Injection
-Two examples of scripts that i wrote, vulnerable to SQL injection and safe to sql injection.
+### SQL Injection Vulnerability Examples
 
-SQL Injection is an attack technique that works through dynamic strings. With this attack technique hacker might get access to user details, might destroy or fetch data from your database without you can notice. 
-Hackers executes malicious SQL commands into web pages login forms (eg. in input boxes). These malicious commands sometimes contain logical operators like OR, AND. With the help of these operators hackers might fetch the data. 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 
-We can use parameterized queries(prepared statements). By using parameterized queries as a developer we should write all the SQL code and pass in each parameter at execution time. This technique allows the database to distinguish wheter input is code or data. By the help of the prepared statements we can be sure that attacker cant change the purpose of the query.
+#### Overview
+This repository provides two Java scripts: one demonstrating vulnerability to SQL injection attacks and another showcasing secure practices against SQL injection. SQL injection is a common attack that exploits improper handling of user input in SQL queries.
 
-### Technologies Used : 
-Java
+#### Features
+- ❌ **Vulnerable Script:** Example of SQL injection vulnerability.
+- ✔️ **Secure Script:** Example of secure SQL handling using parameterized queries.
+
+#### Technologies
+- **Language:** 
+  - ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+
+#### Prerequisites
+- ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) Development Kit (JDK) 
+- Basic knowledge of SQL and database operations
+
+#### Getting Started
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/berkanozturkk/sql-injection.git
+   ```
+2. **Navigate to the directory:**
+   ```bash
+   cd sql-injection
+   ```
+3. **Run the scripts using Java:**
+   ```bash
+   javac sqlinjection/VulnerableScript.java
+   java sqlinjection/VulnerableScript
+   ```
+
+#### Understanding SQL Injection
+SQL Injection is an attack technique where malicious SQL commands are inserted into input fields, potentially allowing attackers to access or manipulate the database. Preventive measures include:
+- **Parameterized Queries:** Use prepared statements to ensure user inputs are treated as data, not executable code.
+- **Input Validation:** Validate and sanitize user inputs to block malicious data.
+
